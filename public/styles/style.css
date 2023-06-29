@@ -1,0 +1,63 @@
+body{
+    background-color: lightgrey;
+}
+#profileContainer{
+    /* display:none; */
+    margin-left: 250;
+    margin-right: 250;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #profile-card-header {
+    padding-top: 5%;
+  }
+  #profile-card {
+    background-color: #f1f8f4;
+    margin-top: 2em;
+  }
+  
+  #nav-header {
+    font-size: 30px;
+    flex: 0.5;
+    justify-self: center;
+    color: #fff;
+  }
+  #nav-container {
+    justify-content:end;
+  }
+  
+  .nav-links-container {
+    display: flex;
+    flex: 1;
+  }
+  .navBarContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+    flex: 5;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .navLink {
+    font-size: 18px;
+  
+  }
+  
+  .navLink  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navLink a:hover {
+    background-color: #252e24;
+  }
+  
